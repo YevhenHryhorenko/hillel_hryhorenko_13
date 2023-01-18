@@ -1,0 +1,326 @@
+@font-face {
+	font-family: "Amazon Ember";
+	src: url("../fonts/AmazonEmber_Rg.eot");
+	src: local("☺"), url("../fonts/AmazonEmber_Rg.woff") format("woff"),
+		url("../fonts/AmazonEmber_Rg.ttf") format("truetype"),
+		url("../fonts/AmazonEmber_Rg.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font-size: 14px;
+	line-height: 20px;
+	font-family: Arial, sans-serif;
+}
+
+.small-photos-wrap {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	position: relative;
+
+	.board-grey {
+		border: 1px solid #a2a6ac;
+		border-radius: 2px;
+		width: max-content;
+
+		.img-wrap {
+			overflow: hidden;
+			border-radius: 2px;
+			position: relative;
+		}
+
+		&:hover {
+			border: 1px solid #e77600;
+			box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%);
+		}
+	}
+
+	.photo-1 {
+		&:hover .second-lvl {
+			display: block;
+			// position: absolute;
+		}
+	}
+
+	.photo-2 {
+		&:hover .second-lvl {
+			display: block;
+			// position: absolute;
+		}
+	}
+
+	.photo-3 {
+		&:hover .second-lvl {
+			display: block;
+			// position: absolute;
+		}
+	}
+
+	.photo-4 {
+		&:hover .second-lvl {
+			display: block;
+			// position: absolute;
+		}
+	}
+
+	.photo-5 {
+		&:hover .second-lvl {
+			display: block;
+			// position: absolute;
+		}
+	}
+
+	.photo-6 {
+		&:hover .second-lvl {
+			display: block;
+			// position: absolute;
+		}
+	}
+
+	.photo-7 {
+		&:hover .second-lvl {
+			display: block;
+			// position: absolute;
+		}
+	}
+}
+// .main-photos-wrap {
+// 	position: relative;
+
+// 	.main-photo-wrap {
+// 		display: none;
+
+// 		&:nth-of-type(1) {
+// 			display: block;
+// 			position: absolute;
+// 			top: 150px;
+// 		}
+// 	}
+// }
+
+.second-lvl {
+	display: none;
+}
+
+.first-half {
+	position: sticky;
+	top: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+.col-6 {
+	.heading {
+		font-weight: 400;
+		font-size: 24px;
+		line-height: 32px;
+		font-family: Arial, sans-serif;
+		max-width: 315px;
+	}
+
+	.link {
+		text-decoration: none;
+		color: #007185;
+		font-size: 14px;
+		line-height: 20px;
+		font-family: Arial, sans-serif;
+
+		&:hover {
+			text-decoration: underline;
+			cursor: pointer;
+			color: #c7511f;
+		}
+	}
+
+	.rating {
+		display: flex;
+		align-items: center;
+
+		.stars {
+			height: 18px;
+			width: 80px;
+			background-image: url(../source/sprite.png);
+			background-size: 512px 512px;
+			background-position: -2px -42px;
+			display: inline-block;
+			cursor: pointer;
+		}
+
+		.pop {
+			background-image: url(../source/sprite2.png);
+			margin-left: 8px;
+			margin-right: 20px;
+			vertical-align: text-top;
+			width: 7px;
+			height: 5px;
+			background-position: -90px -5px;
+			background-size: 400px 900px;
+			opacity: 0.6;
+			display: inline-block;
+			cursor: pointer;
+		}
+	}
+
+	div {
+		.pipe {
+			color: #666;
+			padding: 0 5px 0 5px;
+		}
+	}
+
+	.wrap-choice {
+		display: flex;
+		margin: 5px 0 10px;
+
+		.wrap-span {
+			display: inline-flex;
+
+			.am-cho {
+				height: 22px;
+				background-color: #232f3e;
+				border-color: #232f3e;
+				display: flex;
+				min-width: 80px;
+
+				.amaz {
+					line-height: 22px;
+					margin-left: 8px;
+					margin-right: 3px;
+					font-size: 12px;
+					font-family: "Amazon Ember", Arial, sans-serif;
+					color: #fff;
+				}
+
+				.choice {
+					line-height: 22px;
+					font-size: 12px;
+					font-family: "Amazon Ember", Arial, sans-serif;
+					color: #f69931;
+					margin-right: 8px;
+				}
+			}
+
+			.triangle {
+				width: 0;
+				height: 0;
+				border-right: 10px solid transparent;
+				border-top: 22px solid;
+				color: #232f3e;
+			}
+		}
+
+		.text-hide {
+			color: #111;
+			display: inline;
+			margin-left: 5px;
+			line-height: 22px;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+	}
+
+	.climatePledgeFriendly-wrap {
+		margin-top: 4px;
+		margin-bottom: 8px;
+
+		.climatePledgeFriendly {
+			color: #168342;
+			text-decoration: none;
+
+			&-text {
+				font-size: 14px;
+				line-height: 20px;
+			}
+		}
+	}
+
+	hr {
+		color: #b9b9b9;
+	}
+
+	.set-buttons {
+		margin-bottom: 8px;
+
+		.set-descr {
+			padding-bottom: 4px;
+
+			.set-name {
+				color: #555;
+			}
+
+			.set-item {
+				font-weight: 700;
+				color: #000;
+			}
+		}
+
+		.butt {
+			&-dashed {
+				border: 1px dashed silver;
+				padding: 5px 10px 5px 11px;
+				background-color: transparent;
+				color: #ccc;
+				margin: 4px 0 4px 6px;
+
+				&:first-of-type {
+					margin-left: -6px;
+				}
+
+				&:hover {
+					color: #000;
+				}
+			}
+
+			&-solid-orange {
+				padding: 5px 10px 5px 11px;
+				font-weight: 700;
+				background-color: transparent;
+				border: 1px solid #e47911;
+				margin: 4px 0 4px 6px;
+
+				&:first-of-type {
+					margin-left: -6px;
+				}
+			}
+
+			&-solid {
+				padding: 5px 10px 5px 11px;
+				background-color: transparent;
+				border: 1px solid #e0e0e0;
+				margin: 4px 0 4px 6px;
+
+				&:first-of-type {
+					margin-left: -6px;
+				}
+
+				&:hover {
+					background-color: #f3f3f3;
+				}
+			}
+		}
+	}
+
+	.tb {
+		&-row {
+			&-data {
+				padding: 3px 0 3px 5px;
+				color: #000;
+				vertical-align: text-top;
+				font-family: "Amazon Ember", Arial, sans-serif;
+			}
+
+			&-data-bold {
+				font-weight: 700;
+				width: 83px;
+				padding: 3px 0 3px 3px;
+				color: #000;
+				font-family: "Amazon Ember", Arial, sans-serif;
+			}
+		}
+	}
+}
