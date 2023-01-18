@@ -19,6 +19,7 @@ body {
 	flex-direction: column;
 	gap: 8px;
 	position: relative;
+	padding: 0;
 
 	.board-grey {
 		border: 1px solid #a2a6ac;
@@ -28,7 +29,6 @@ body {
 		.img-wrap {
 			overflow: hidden;
 			border-radius: 2px;
-			position: relative;
 		}
 
 		&:hover {
@@ -40,49 +40,70 @@ body {
 	.photo-1 {
 		&:hover .second-lvl {
 			display: block;
-			// position: absolute;
+			position: absolute;
+			left: 50px;
+			top:50%;
+			transform: translate(-50%);
 		}
 	}
 
 	.photo-2 {
 		&:hover .second-lvl {
 			display: block;
-			// position: absolute;
+			position: absolute;
+			left: 50px;
+			top:50%;
+			transform: translate(-50%);
 		}
 	}
 
 	.photo-3 {
 		&:hover .second-lvl {
 			display: block;
-			// position: absolute;
+			position: absolute;
+			left: 50px;
+			top:50%;
+			transform: translate(-50%);
 		}
 	}
 
 	.photo-4 {
 		&:hover .second-lvl {
 			display: block;
-			// position: absolute;
+			position: absolute;
+			left: 50px;
+			top:50%;
+			transform: translate(-50%);
 		}
 	}
 
 	.photo-5 {
 		&:hover .second-lvl {
 			display: block;
-			// position: absolute;
+			position: absolute;
+			left: 50px;
+			top:50%;
+			transform: translate(-50%);
 		}
 	}
 
 	.photo-6 {
 		&:hover .second-lvl {
 			display: block;
-			// position: absolute;
+			position: absolute;
+			left: 50px;
+			top:50%;
+			transform: translate(-50%);
 		}
 	}
 
 	.photo-7 {
 		&:hover .second-lvl {
 			display: block;
-			// position: absolute;
+			position: absolute;
+			left: 50px;
+			top:50%;
+			transform: translate(-50%);
 		}
 	}
 }
