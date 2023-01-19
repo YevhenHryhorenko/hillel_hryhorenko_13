@@ -58,10 +58,13 @@ body {
   overflow: hidden;
   border-radius: 2px;
 }
-.small-photos-wrap .video:hover .second-lvl {
+.small-photos-wrap .video-wrap .second-lvl .video {
+  box-shadow: 0px 100px 0px 10px #fff;
+}
+.small-photos-wrap .video-wrap:hover .second-lvl {
   display: block;
   position: absolute;
-  left: 60px;
+  left: 55px;
   top: 45%;
   transform: translateY(-50%);
 }
@@ -251,7 +254,8 @@ img {
   transform: translateY(-50%);
 }
 
-.col-12 .small-photos-wrap .active, .board-grey:hover {
+.col-12 .small-photos-wrap .active,
+.board-grey:hover {
   border: 1px solid #e77600;
   box-shadow: 0 0 3px 2px rgba(228, 121, 17, 0.5);
 }
@@ -271,13 +275,16 @@ img {
   font-size: 13px;
   line-height: 29px;
   text-align: center;
-  vertical-align: middle;
   text-decoration: none;
   font-family: "Amazon Ember", Arial, sans-serif;
   border: 1px solid rgb(213, 217, 217);
   border-radius: 8px;
   box-shadow: rgba(213, 217, 217, 0.5) 0px 2px 5px 0px;
   width: 204px;
+}
+.more-options .all-options:hover {
+  background-color: #f7fafa;
+  border-color: #d5d9d9;
 }
 .more-options .deliver-flex {
   display: flex;
