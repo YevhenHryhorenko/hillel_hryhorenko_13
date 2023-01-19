@@ -60,10 +60,10 @@ body {
 			border-radius: 2px;
 		}
 
-		&:hover {
-			border: 1px solid #e77600;
-			box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%);
-		}
+		// .active, &:hover {
+		// 	border: 1px solid #e77600;
+		// 	box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%);
+		// }
 	}
 
 	.video {
@@ -305,6 +305,11 @@ img {
 	left: 50px;
 	top: 80%;
 	transform: translateY(-50%);
+}
+
+.col-12 .small-photos-wrap .active, .board-grey:hover {
+	border: 1px solid #e77600;
+	box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%);
 }
 
 .more-options {
